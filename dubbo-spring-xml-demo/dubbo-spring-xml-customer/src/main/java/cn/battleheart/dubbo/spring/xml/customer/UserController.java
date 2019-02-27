@@ -10,6 +10,11 @@ import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
 import java.util.Set;
 
+/**
+ * 用户控制器。
+ *
+ * @author battleheart
+ */
 @RestController
 public class UserController {
 

@@ -33,7 +33,8 @@ public interface IUserService {
     /**
      * 根据用户编号删除用户信息。
      *
-     * @param id 用户编号。
+     * @param id       用户编号。
+     * @param operator 操作人。
      * @return 返回受影响行数。
      */
     Integer delete(@Min(1) Long id, @NotNull @Size(min = 2, max = 16) @Pattern(regexp = "^[a-zA-Z]+$") String operator);
