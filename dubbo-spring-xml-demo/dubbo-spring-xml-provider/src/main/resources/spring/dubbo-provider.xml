@@ -33,6 +33,6 @@
     <bean id="userService" class="cn.battleheart.dubbo.spring.provider.UserServiceImpl"/>
 
     <!-- declare the service interface to be exported -->
-    <dubbo:service interface="cn.battleheart.dubbo.spring.IUserService" ref="userService"/>
+    <dubbo:service interface="cn.battleheart.dubbo.spring.IUserService" ref="userService" validation="true"/>
 
 </beans>
